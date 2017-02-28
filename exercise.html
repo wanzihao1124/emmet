@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    user-select: none;
+}
+body,html{
+    font-family:  微软雅黑,cursive;
+    background: rgb(0,0,0);
+    margin: 0px;
+}
+#Site{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    color: #440a0e；
+    opacity:0;
+    transition:opacity 400ms ease-out;
+}
+#Site.init{
+    opacity: 1;
+}
+.main-content{
+    width:777.333px;
+    height: 583px;
+    max-width: 200vmin;
+    margin: 0 atuo;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-img, .overflow-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#Background.bg-img{
+    left: 0;
+}
+.ui{
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    top:1vmin;
+    width: 20vmin;
+    right:2vmin;
+    transition:opacity 400ms ease-out;
+}
+.progress-container{
+    padding-top: 180px;
+}
+#cont{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    transform:matrix3d(-50%,0,0) scale(0.8);
+}
+.cont{
+    margin-bottom: 4px;
+}
+.site-btn{
+    text-align: center;
+    clear: both;
+    width: 100%;
+    background: #fff;
+    padding: 4px 0;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 3.4vmin;
+}
+.clasim-btn{
+    background-color: #b12e28;
+    border: 2px solid #711017;
+    border-radius: 2px;
+    color: #fff;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+</style>
+<body>
+   <div class="init" id="Site">
+       <div class="main-content">
+           <div class="ui" id="UI">
+               <div class="progress-container">
+                   <div id="cont">
+                       <svg id="svg" width="210" height="210"view="0 0 100 100" version="1.1" xmlns="">
+                       <circle r="90" cx="105" cy="105" fill="transparent" stroke-dasharray="565.48" strole-dashoffset="0"></circle>
+                       <circle id="bar" r="90",cx="105"cy="105" fill="transparent" 
+                       stroke-dasharray="565.48" strole-dashoffset="0" style="stroke-dashoffset:565.48px; "
+                       ></circle>
+                       </svg>
+                   </div>
+                   <h3>
+                       <span class="points">已献祭的小兵数</span>
+                       <div class="cont">0</div>
+                  </h3>
+                       <div class="site-btn claim-btn claimed">现在领取</div>
+                   
+               </div>
+           </div>
+           <img width="777.333" height="583" src="" alt="" id="Background" class="bg-img">
+       <div class="smoke asset"></div>
+       <div id="OverflowContaineer" class="overflow-container">
+           <div class="catwalk-left"></div>
+           <div class="minion-transitin static">
+               <div class="minion-right" style="max-width:100%：">
+                  <img src=""  class="img-spacer">
+               </div>
+           </div>
+    <div class="minion-transition static reverse">
+        <div class="minion-right dalay1" style="max-width:100%;">
+            <img src=""  class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition static">
+        <div class="minion-transition static" style="max-width:100px;">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition static reverse">
+        <div class="minion-right delay3" style="max-width:100%;">
+            <img src="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition static">
+        <div class="minion-right delay1" style="max-width:100%">
+             <img src=""  class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition static reverse">
+        <div class="minion-right"style="max-width:100%;">
+            <img src="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition static">
+        <div class="minion-right delay2" style="max-width:100%">
+            <img src="" alt="" class="img-spacer">
+
+        </div>
+    </div>
+      <div class="minion-transition static reverse">
+        <div class="minion-right"style="max-width:100%;">
+            <img src="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition staticTwo">
+        <div class="minion-right delay2" style="max-width:100%;">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition">
+        <div class="minion-right delay3"style="max-width:100%;">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition slow">
+        <div class="minion-right delay1"style="max-width:100%;">
+            <img src="" alt="" class="imgspacer">
+        </div>
+    </div>
+    <div class="minion-transition fast">
+        <div class="minion-right delay2">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition fast two">
+        <div class="minion-right delay2">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition two">
+        <div class="minio-right delay1">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-transition slow two">
+        <div class="minion-right delay1">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+    <div class="minion-jump">
+        <div class="minion" style="top: 13%;left:33%; animation:minionJumpUp.39312s ease-out forwards;">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+       </div>
+<div class="cauldron-contaicer">
+    <div class="cauldron asset"></div>
+</div>
+<div class="platform asset">
+    <div class="fire-container">
+        <div class="fire asset"></div>
+        <div class="logs asset"></div>
+        <div class="highlights asset"></div>
+    </div>
+</div>
+<div class="door-mask alt">
+    <div class="minion-transition alt minion-alt">
+        <div class="minion-right">
+            <img src="" alt="" class="img-spacer">
+        </div>
+    </div>
+</div>
+       <div class="door-mask">
+           <div class="door-shadow"></div>
+           <div class="minion-right delay2">
+               <img src="" alt="" class="img-spacer">
+           </div>
+       </div>
+       <div class="minion-transition">
+           <div class="minion-right delay1">
+               <img src="" alt="" class="img-spacer">
+            </div>
+       </div>
+       <div class="minion-transition">
+           <div class="minion-right">
+               <img src="" alt="" class="img-spacer">
+            </div>
+       </div>
+       <div class="minion-transition">
+           <div class="minion-right delay3">
+               <img src="" alt="" class="img-spacer">
+            </div>
+       </div>
+       </div>
+       <div class="catwalk-right asset"></div>
+       <div class="bottles asset"></div>
+   </div>
+   <script>
+   window.onload=function(){
+       var bar =document.getElementById('bar');
+       bar.style.stroleDashoffset='20px';
+       var container =document.creatElement('div')
+       jumpEle.className='minion-jump up';
+       jumpEle.innerHTML = '<div class="minion" style="top: 13%; left: 33%; 
+       animation: minionJumpUp .39312s ease-out forwards;">
+       <img class="img-spacer" src="./images/minion.png"></div>';
+       container.appendChild(jumpEle);
+       document.quuerySelector('.up').addEventListener('webkitAnimationEnd',function(){
+           this.classList.remove('up');
+           this.getElementsByTagName('div')[0].style.animation ='';
+           this.style.animation = 'minionJumpDive 0.455608s ease-in forwards;'
+      this.classList.add('dive');
+      this.classList.add('pop1');
+      document.querySelector('.dive').addEventListener('webkitAnimationEnd',
+      function(){
+        this.parentNode.removeChild(this);
+        })
+    });
+   }
+   </script>
+</body>
+</html>
